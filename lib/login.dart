@@ -24,7 +24,7 @@ class _LoginState extends State<Login> {
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 34),
           ),
           SizedBox(
-            height: 30,
+            height: 20,
           ),
           Text("Login to your account"),
           SizedBox(
@@ -54,18 +54,22 @@ class _LoginState extends State<Login> {
           SizedBox(
             height: 30,
           ),
-          ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue
-              ),
-              onPressed: () {},
-              child: Text(
-                "Login",
-                style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold),
-              )),
+          Container(
+            width: 200,
+            height: 40,
+            child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue
+                ),
+                onPressed: () {},
+                child: Text(
+                  "Login",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold),
+                )),
+          ),
           SizedBox(
             height: 30,
           ),
