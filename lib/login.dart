@@ -17,7 +17,7 @@ class _LoginState extends State<Login> {
       body: Column(
         children: [
           SizedBox(
-            height: 50,
+            height: 100,
           ),
           Text(
             "LOGIN",

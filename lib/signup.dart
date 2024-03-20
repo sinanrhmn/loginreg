@@ -22,7 +22,7 @@ class _SignupState extends State<Signup> {
         child: Column(
           children: [
             SizedBox(
-              height: 50,
+              height: 100,
             ),
             Text(
               "Sign Up",

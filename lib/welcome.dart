@@ -16,7 +16,7 @@ class _WelcomeState extends State<Welcome> {
       body: Center(
         child: Column(
           children: [
-            SizedBox(height: 30),
+            SizedBox(height: 100),
             Text(
               "Welcome",
               style: TextStyle(
